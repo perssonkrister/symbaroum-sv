@@ -1,0 +1,82 @@
+{
+   "id":"symbaroum-sv",
+   "name":"symbaroum-sv",
+   "title":"Symbaroum SV",
+   "description":"Förmågor, krafter, ritualer, fördelar, nackdelar och särdrag på svenska",
+   "authors":[
+      {
+         "name":"Krister Persson (Rangertheman)",
+         "discord":"Krister Persson#4927",
+         "flags":{
+            
+         }
+      }
+   ],
+   "version":"1.0.5",
+   "compatibility":{
+      "minimum":"10",
+      "verified":"10"
+   },
+   "relationships":{
+      "systems":[
+         {
+            "id":"symbaroum",
+            "type":"system",
+            "compatibility":{
+               "minimum":"3.1.6",
+               "verified":"3.1.8"
+            }
+         }
+      ]
+   },
+   "packs":[
+      {
+         "name":"symbaroum-formagor-sv",
+         "label":"Förmågor",
+         "path":"packs/symbaroum-formagor-sv.db",
+         "type":"Item",
+         "system":"symbaroum",
+         "module":"symbaroum-sv"
+      },
+      {
+         "name":"symbaroum-krafter-sv",
+         "label":"Krafter",
+         "path":"packs/symbaroum-krafter-sv.db",
+         "type":"Item",
+         "system":"symbaroum",
+         "module":"symbaroum-sv"
+      },
+      {
+         "name":"symbaroum-ritualer-sv",
+         "label":"Ritualer",
+         "path":"packs/symbaroum-ritualer-sv.db",
+         "type":"Item",
+         "system":"symbaroum",
+         "module":"symbaroum-sv"
+      },
+      {
+         "name":"symbaroum-fordelar-sv",
+         "label":"Fördelar",
+         "path":"packs/symbaroum-fordelar-sv.db",
+         "type":"Item",
+         "system":"symbaroum",
+         "module":"symbaroum-sv"
+      },
+      {
+         "name":"symbaroum-nackdelar-sv",
+         "label":"Nackdelar",
+         "path":"packs/symbaroum-nackdelar-sv.db",
+         "type":"Item",
+         "system":"symbaroum",
+         "module":"symbaroum-sv"
+      },
+      {
+         "name":"symbaroum-sardrag-sv",
+         "label":"Särdrag",
+         "path":"packs/symbaroum-sardrag-sv.db",
+         "type":"Item",
+         "system":"symbaroum",
+         "module":"symbaroum-sv"
+      }
+   ]
+}
