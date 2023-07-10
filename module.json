@@ -2,20 +2,23 @@
    "id":"symbaroum-sv",
    "name":"symbaroum-sv",
    "title":"Symbaroum SV",
-   "description":"Förmågor, krafter, ritualer, fördelar, nackdelar och särdrag på svenska",
+   "description":"Förmågor, krafter, ritualer, fördelar, nackdelar, särdrag, vapen och rustningar på svenska. Endast för personligt bruk!",
+   "url":"https://github.com/Rangertheman/symbaroum-sv",
+   "manifest":"https://raw.githubusercontent.com/Rangertheman/symbaroum-sv/master/module.json",
+   "download":"https://github.com/Rangertheman/symbaroum-sv/archive/master.zip",
    "authors":[
       {
-         "name":"Krister Persson (Rangertheman)",
-         "discord":"Krister Persson#4927",
+         "name":"Krister Persson",
+         "discord":"Rangertheman",
          "flags":{
             
          }
       }
    ],
-   "version":"1.0.5",
+   "version":"1.0.6",
    "compatibility":{
-      "minimum":"10",
-      "verified":"10"
+      "minimum":"11",
+      "verified":"11.305"
    },
    "relationships":{
       "systems":[
@@ -23,57 +26,65 @@
             "id":"symbaroum",
             "type":"system",
             "compatibility":{
-               "minimum":"3.1.6",
-               "verified":"3.1.8"
+               "minimum":"4.2.0",
+               "verified":"4.2.0"
             }
          }
       ]
    },
    "packs":[
       {
-         "name":"symbaroum-formagor-sv",
+         "name":"formagor",
          "label":"Förmågor",
-         "path":"packs/symbaroum-formagor-sv.db",
+         "path":"packs/formagor.db",
          "type":"Item",
          "system":"symbaroum",
          "module":"symbaroum-sv"
       },
       {
-         "name":"symbaroum-krafter-sv",
+         "name":"krafter",
          "label":"Krafter",
-         "path":"packs/symbaroum-krafter-sv.db",
+         "path":"packs/krafter.db",
          "type":"Item",
          "system":"symbaroum",
          "module":"symbaroum-sv"
       },
       {
-         "name":"symbaroum-ritualer-sv",
+         "name":"ritualer",
          "label":"Ritualer",
-         "path":"packs/symbaroum-ritualer-sv.db",
+         "path":"packs/ritualer.db",
          "type":"Item",
          "system":"symbaroum",
          "module":"symbaroum-sv"
       },
       {
-         "name":"symbaroum-fordelar-sv",
-         "label":"Fördelar",
-         "path":"packs/symbaroum-fordelar-sv.db",
+         "name":"for-och-nackdelar",
+         "label":"För- och nackdelar",
+         "path":"packs/for-och-nackdelar.db",
          "type":"Item",
          "system":"symbaroum",
          "module":"symbaroum-sv"
       },
       {
-         "name":"symbaroum-nackdelar-sv",
-         "label":"Nackdelar",
-         "path":"packs/symbaroum-nackdelar-sv.db",
-         "type":"Item",
-         "system":"symbaroum",
-         "module":"symbaroum-sv"
-      },
-      {
-         "name":"symbaroum-sardrag-sv",
+         "name":"sardrag",
          "label":"Särdrag",
-         "path":"packs/symbaroum-sardrag-sv.db",
+         "path":"packs/sardrag.db",
+         "type":"Item",
+         "system":"symbaroum",
+         "module":"symbaroum-sv"
+      },
+      {
+         "name":"rustningar",
+         "label":"Rustningar",
+         "path":"packs/rustningar.db",
+         "type":"Item",
+         "system":"symbaroum",
+         "module":"symbaroum-sv"
+      },
+      {
+         "name":"vapen",
+         "label":"Vapen",
+         "path":"packs/vapen.db",
          "type":"Item",
          "system":"symbaroum",
          "module":"symbaroum-sv"
