@@ -15,10 +15,10 @@
          }
       }
    ],
-   "version":"1.0.7",
+   "version":"1.0.8",
    "compatibility":{
       "minimum":"12",
-      "verified":"11.331"
+      "verified":"12.331"
    },
    "relationships":{
       "systems":[
