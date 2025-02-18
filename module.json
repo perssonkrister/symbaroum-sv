@@ -15,7 +15,7 @@
          }
       }
    ],
-   "version":"1.0.8",
+   "version":"1.1.0",
    "compatibility":{
       "minimum":"12",
       "verified":"12.331"
@@ -32,6 +32,22 @@
          }
       ]
    },
+   "packFolders": [
+      {
+        "name": "Symbaroum (Svenska)",
+        "sorting": "a",
+        "color": "#3d4a43",
+        "packs": [
+          "formagor",
+          "krafter",
+          "ritualer",
+          "for-och-nackdelar",
+          "sardrag",
+          "rustningar",
+          "vapen"
+        ]
+      }
+    ],
    "packs":[
       {
          "name":"formagor",
